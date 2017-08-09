@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href='css/bootstrap.css' rel='stylesheet' type='text/css'></link>
+    <link href='css/styles.css' rel='stylesheet' type='text/css'></link>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>appointments</title>
+  </head>
+  <body>
+  <form id="userInformation">
+    <div class="form-group">
+      <label for="userName">Enter your name:</label>
+      <input id="userName"></input>
+    </div>
+    <div class="form-group">
+      <label for="userDescription">What is the purpose of the appointment?</label>
+      <input id="userDescription"></input>
+    </div>
+    <div class="form-group">
+      <label for="userDate">What date is the appointment?</label>
+      <input id="userDate"></input>
+    </div>
+
+    <div class="form-group">
+      <label for="userTime">What is the start and end time?</label>
+      <input id="userTime"></input>
+    </div>
+
+    <button class"submit" type="btn" name="button">submit</button>
+  </form>
+
+  <div id="print">
+    <p><span id="resultName"></span>
+      your appointment about <span id="resultDescription"></span> for the date <span id="resultDate"></span> is at <span id="resultTime"></span>
+    </p>
+
+  </div>
+  </body>
+</html>
